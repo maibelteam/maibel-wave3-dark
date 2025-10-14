@@ -306,56 +306,56 @@ const LandingPage = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 bg-gradient-to-br from-orange-50 to-rose-50">
+      <section className="py-24 bg-gradient-to-br from-purple-950/30 to-black">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6">
+            <h2 className="text-5xl font-bold mb-6 text-white">
               Real Stories,
               <br />
-              <span className="bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">Real Transformations</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Real Transformations</span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-white border-2 border-rose-100">
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
               <CardContent className="pt-8 pb-8">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="#f43f5e" className="text-rose-500" />
+                    <Star key={i} size={16} fill="#a855f7" className="text-purple-500" />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 italic">
+                <p className="text-gray-300 mb-4 italic">
                   "I've tried every wellness app. Maibel is the first one that actually keeps me coming back. It's like having a supportive friend in my pocket."
                 </p>
-                <p className="font-semibold text-rose-600">— Sarah, Beta User</p>
+                <p className="font-semibold text-purple-400">— Sarah, Beta User</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-white border-2 border-rose-100">
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
               <CardContent className="pt-8 pb-8">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="#f43f5e" className="text-rose-500" />
+                    <Star key={i} size={16} fill="#a855f7" className="text-purple-500" />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 italic">
+                <p className="text-gray-300 mb-4 italic">
                   "The unlockable story arcs are genius. I'm actually excited to work out because I want to see what happens next!"
                 </p>
-                <p className="font-semibold text-rose-600">— Michelle, Early Adopter</p>
+                <p className="font-semibold text-purple-400">— Michelle, Early Adopter</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-white border-2 border-rose-100">
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
               <CardContent className="pt-8 pb-8">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="#f43f5e" className="text-rose-500" />
+                    <Star key={i} size={16} fill="#a855f7" className="text-purple-500" />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 italic">
+                <p className="text-gray-300 mb-4 italic">
                   "Finally, a wellness app that understands women. I can't wait for the next launch!"
                 </p>
-                <p className="font-semibold text-rose-600">— Jessica, Beta Tester</p>
+                <p className="font-semibold text-purple-400">— Jessica, Beta Tester</p>
               </CardContent>
             </Card>
           </div>
@@ -363,9 +363,9 @@ const LandingPage = () => {
       </section>
 
       {/* Waitlist Section */}
-      <section id="waitlist" className="py-24 bg-white">
+      <section id="waitlist" className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-rose-500 to-pink-500 rounded-3xl p-12 text-white text-center shadow-2xl">
+          <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center shadow-2xl">
             <h2 className="text-5xl font-bold mb-6">
               Join the Maibel Movement
             </h2>
@@ -395,7 +395,7 @@ const LandingPage = () => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-white text-rose-600 hover:bg-gray-50 h-14 text-lg font-semibold rounded-xl shadow-lg"
+                className="w-full bg-white text-purple-600 hover:bg-gray-50 h-14 text-lg font-semibold rounded-xl shadow-lg"
               >
                 {isSubmitting ? 'Joining...' : 'Secure Your Spot'}
               </Button>
@@ -409,13 +409,13 @@ const LandingPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-gray-50 border-t border-gray-200">
+      <footer className="py-12 bg-black border-t border-purple-900/30">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Heart className="text-rose-500" size={24} fill="currentColor" />
-            <span className="text-xl font-bold text-gray-800">Maibel</span>
+            <Heart className="text-purple-500" size={24} fill="currentColor" />
+            <span className="text-xl font-bold text-white">Maibel</span>
           </div>
-          <p className="text-gray-600 mb-2">
+          <p className="text-gray-400 mb-2">
             Your emotionally intelligent wellness companion
           </p>
           <p className="text-sm text-gray-500">

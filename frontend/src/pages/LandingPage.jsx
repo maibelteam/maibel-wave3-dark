@@ -53,7 +53,7 @@ const LandingPage = () => {
           </div>
           <Button 
             onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
-            className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-6"
+            className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-6 shadow-lg shadow-purple-500/50 border-2 border-purple-400/50 hover:border-purple-300 transition-all"
           >
             Join Waitlist
           </Button>

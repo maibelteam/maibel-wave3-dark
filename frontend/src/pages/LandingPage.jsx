@@ -84,33 +84,34 @@ const LandingPage = () => {
             </div>
             
             <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight text-white">
-              Your Wellness
+              Star in Your Own
               <br />
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">
-                Companion · BFF · Crush
+                K-Drama Wellness
               </span>
+              <br />
+              Adventure
             </h1>
 
             {/* Hero Image - Oppa */}
             <div className="mb-8 flex justify-center">
               <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-purple-500/30 hover:border-purple-400/50 transition-all">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/7d0njp9e_Evren.jpg"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/de3bnpdy_Evren%20cropped.jpg"
                   alt="Your wellness oppa"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 text-center">
-                  <p className="text-white font-semibold text-lg">Meet Maibel</p>
-                  <p className="text-purple-200 text-sm">Texts like a friend. Acts like your therapist. Feels like a crush.</p>
+                  <p className="text-white font-semibold text-lg">Meet Evren, your Glowkeeping coach</p>
                 </div>
               </div>
             </div>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
-              Build gentle routines with someone who's always there for you...
+              Meet your emotionally intelligent wellness oppa coach who's there for you...
               <br />
-              <span className="font-semibold text-purple-300">even at 3am on Telegram.</span>
+              <span className="font-semibold text-purple-300">even at 3am.</span>
             </p>
             <p className="text-lg text-gray-400 mb-12">
               No app download. No friction. Just text and start your journey.

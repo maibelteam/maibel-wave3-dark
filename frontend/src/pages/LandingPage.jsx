@@ -280,11 +280,11 @@ const LandingPage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {/* Feature 1 - Gym pic */}
+            {/* Feature 1 - CAROUSELBANK */}
             <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/fhceawjy_gympic.png"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/gxhjfx3r_CAROUSEL%20BANK%20%28PHOTO-BASED%29%20%2814%29.png"
                   alt="Build Better Habits Gently"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -312,11 +312,11 @@ const LandingPage = () => {
               </div>
             </div>
 
-            {/* Feature 3 - Carousel bank pic */}
+            {/* Feature 3 - emogirl */}
             <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/cc7decm8_CAROUSEL%20BANK%20%28PHOTO-BASED%29%20%2814%29.png"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/yzrldj3r_emogirl.png"
                   alt="There When It Sucks Most"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

@@ -46,10 +46,13 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Heart className="text-purple-500" size={28} fill="currentColor" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Maibel</span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold text-white">Glowkeeper</span>
+              <span className="text-xs text-purple-300">by Maibel</span>
+            </div>
           </div>
           <Button 
-            onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
             className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-6"
           >
             Join Waitlist

@@ -177,14 +177,14 @@ const LandingPage = () => {
 
               <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/tyjrky3u_gymselfiefeet.png"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/nfx6kl8l_Gym%20Break%20with%20Water%20and%20Towel.png"
                   alt="Motivation That Sticks"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-white font-bold text-lg">Motivation That Sticks</h3>
-                  <p className="text-gray-300 text-sm">Post-workout selfies & updates</p>
+                  <p className="text-gray-300 text-sm">Get rewarded for consistent habits</p>
                 </div>
               </div>
             </div>

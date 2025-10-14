@@ -505,7 +505,7 @@ const LandingPage = () => {
       </section>
 
       {/* Waitlist Section */}
-      <section id="waitlist" className="py-24 bg-black">
+      <section id="waitlist" className="py-12 bg-black">
         <div className="max-w-4xl mx-auto px-6">
           <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center shadow-2xl relative overflow-hidden">
             {/* Decorative elements */}

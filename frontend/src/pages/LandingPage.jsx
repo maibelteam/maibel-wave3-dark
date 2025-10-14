@@ -279,51 +279,51 @@ const LandingPage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {/* Feature 1 */}
+            {/* Feature 1 - Gym pic */}
             <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/527s6qeh_Gemini_Generated_Image_mu9hi8mu9hi8mu9h.png"
-                  alt="Wellness companion"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/fhceawjy_gympic.png"
+                  alt="Build Better Habits Gently"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Emotional Connection</h3>
-                <p className="text-gray-300 text-sm">Daily check-ins that feel like talking to someone who truly cares about your journey</p>
+                <h3 className="text-xl font-bold text-white mb-2">Build Better Habits Gently</h3>
+                <p className="text-gray-300 text-sm">No guilt trips, just soft nudges. He sends post-gym pics and tailors the journey to you.</p>
               </div>
             </div>
 
-            {/* Feature 2 */}
+            {/* Feature 2 - Cat pic */}
             <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/l0613lpw_Gemini_Generated_Image_a6t10qa6t10qa6t1.png"
-                  alt="Nutrition guidance"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/geuqznj8_catpic.png"
+                  alt="Adapts To Your Needs"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Personalized Nutrition</h3>
-                <p className="text-gray-300 text-sm">Get meal inspiration and nutrition tips tailored to women's unique health needs</p>
+                <h3 className="text-xl font-bold text-white mb-2">Adapts To Your Needs</h3>
+                <p className="text-gray-300 text-sm">He learns and evolves with you. No two conversations are the same. It's made for you.</p>
               </div>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 3 - Carousel bank pic */}
             <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/61pk8inm_Gym%20Break%20with%20Water%20and%20Towel.png"
-                  alt="Fitness motivation"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/cc7decm8_CAROUSEL%20BANK%20%28PHOTO-BASED%29%20%2814%29.png"
+                  alt="There When It Sucks Most"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Motivation That Sticks</h3>
-                <p className="text-gray-300 text-sm">Post-workout selfies and progress updates that keep you coming back</p>
+                <h3 className="text-xl font-bold text-white mb-2">There When It Sucks Most</h3>
+                <p className="text-gray-300 text-sm">24/7 emotional support. 2am spiral? He texts first. No judgment. Just presence.</p>
               </div>
             </div>
           </div>

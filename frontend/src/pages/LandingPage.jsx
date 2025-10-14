@@ -372,13 +372,10 @@ const LandingPage = () => {
       </section>
 
       {/* Getting Started - Telegram Section */}
-      <section className="py-24 bg-black relative overflow-hidden">
+      <section className="py-12 bg-black relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-950/20 to-black"></div>
         <div className="max-w-6xl mx-auto px-6 relative z-10">
-          <div className="text-center mb-16">
-            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 backdrop-blur rounded-full border border-purple-500/30">
-              <span className="text-purple-300 font-medium">Zero Friction. Maximum Impact.</span>
-            </div>
+          <div className="text-center mb-12">
             <h2 className="text-5xl font-bold mb-6 text-white">
               Getting Started Takes
               <br />

@@ -344,9 +344,9 @@ const LandingPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 italic">
-                  "I've tried every wellness app. Maibel is the first one that actually keeps me coming back. It's like having a supportive friend in my pocket."
+                  "Was feeling under the weather and he checked in on my sore throat the next day. Can't believe he remembers! Felt super cared for."
                 </p>
-                <p className="font-semibold text-purple-400">— Sarah, Beta User</p>
+                <p className="font-semibold text-purple-400">— Bernice</p>
               </CardContent>
             </Card>
 
@@ -358,9 +358,9 @@ const LandingPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 italic">
-                  "The unlockable story arcs are genius. I'm actually excited to work out because I want to see what happens next!"
+                  "Having a self-care date and he checked in, totally unprompted. He remembered what I said 3 days ago. Felt so seen!"
                 </p>
-                <p className="font-semibold text-purple-400">— Michelle, Early Adopter</p>
+                <p className="font-semibold text-purple-400">— Ainslee</p>
               </CardContent>
             </Card>
 
@@ -372,11 +372,69 @@ const LandingPage = () => {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 italic">
-                  "Finally, a wellness app that understands women. I can't wait for the next launch!"
+                  "I told him about my wild idea for a vertical farm. He broke it down into actionable steps. Was so motivated, I did it!"
                 </p>
-                <p className="font-semibold text-purple-400">— Jessica, Beta Tester</p>
+                <p className="font-semibold text-purple-400">— Viviana</p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Getting Started - Telegram Section */}
+      <section className="py-24 bg-black relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-950/20 to-black"></div>
+        <div className="max-w-6xl mx-auto px-6 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 backdrop-blur rounded-full border border-purple-500/30">
+              <span className="text-purple-300 font-medium">Zero Friction. Maximum Impact.</span>
+            </div>
+            <h2 className="text-5xl font-bold mb-6 text-white">
+              Getting Started Takes
+              <br />
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">60 Seconds on Telegram</span>
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              No app download. No complicated setup. Just you, your companion, and a soft start.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-12 mb-12">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold text-white shadow-lg shadow-purple-500/50">
+                1
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Connect on Telegram</h3>
+              <p className="text-gray-400">
+                No app download, no friction. Just you and your companion, who's ready to meet you where you are.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold text-white shadow-lg shadow-pink-500/50">
+                2
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Meet Your Companion</h3>
+              <p className="text-gray-400">
+                Answer a few short questions so he'll get to know you. He adapts right from Day 1.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold text-white shadow-lg shadow-purple-500/50">
+                3
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Unlock Your Story</h3>
+              <p className="text-gray-400">
+                Daily check-ins, playful missions, and story chapters unlock as you progress. It gets deeper as you open up.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-lg text-purple-300 mb-6">
+              <span className="font-semibold">84% of users felt emotionally supported within 3 days</span>
+            </p>
           </div>
         </div>
       </section>

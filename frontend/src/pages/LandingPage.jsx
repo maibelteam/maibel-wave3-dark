@@ -527,36 +527,17 @@ const LandingPage = () => {
                 Be among the first to unlock your wellness story on Telegram.
               </p>
               <p className="text-lg mb-8 opacity-90">
-                <span className="font-semibold">Next cohort opens: Late October 2025</span>
+                <span className="font-semibold">Limited slots for intimate beta experience.</span>
                 <br />
-                Limited spots available for intimate beta experience.
+                Next cohort opens: 27 Oct 2025
               </p>
 
-              <form onSubmit={handleWaitlistSubmit} className="max-w-md mx-auto space-y-4">
-                <Input
-                  type="text"
-                  placeholder="Your name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
-                  required
-                />
-                <Input
-                  type="email"
-                  placeholder="Your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
-                  required
-                />
-                <Button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-white text-purple-600 hover:bg-gray-50 h-14 text-lg font-semibold rounded-xl shadow-lg transform hover:scale-105 transition-all"
-                >
-                  {isSubmitting ? 'Joining...' : 'Save My Spot 💜'}
-                </Button>
-              </form>
+              <Button
+                onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
+                className="w-full max-w-md mx-auto bg-purple-900 hover:bg-purple-950 text-white h-16 text-xl font-bold rounded-xl shadow-lg transform hover:scale-105 transition-all"
+              >
+                Save My Spot 💜
+              </Button>
 
               <p className="text-sm mt-6 opacity-90">
                 ✨ Get notified when spots open • 🎁 Early access perks • 🔒 Your info stays private

@@ -531,7 +531,7 @@ const LandingPage = () => {
 
               <Button
                 onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
-                className="w-full max-w-md mx-auto bg-purple-900 hover:bg-purple-950 text-white h-16 text-xl font-bold rounded-xl shadow-lg transform hover:scale-105 transition-all"
+                className="w-full max-w-md mx-auto bg-white hover:bg-gray-50 text-purple-600 h-16 text-xl font-bold rounded-xl shadow-lg border-4 border-purple-400 transform hover:scale-105 transition-all"
               >
                 Save My Spot 💜
               </Button>

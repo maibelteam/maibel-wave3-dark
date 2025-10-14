@@ -149,69 +149,52 @@ const LandingPage = () => {
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
-      {/* Features with Images Section */}
-      <section id="features" className="py-24 bg-black relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 to-black"></div>
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
+      {/* Problem Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6 text-white">
-              Your Wellness Journey,
+            <h2 className="text-5xl font-bold mb-6">
+              <span className="text-gray-500">97% of users quit</span>
               <br />
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Reimagined</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">wellness apps within 30 days</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Experience wellness through connection, not just tracking
+              Because most wellness apps are built by men, for women.
+              <br />
+              <span className="font-semibold text-gray-200">But women aren't small men.</span>
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {/* Feature 1 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/527s6qeh_Gemini_Generated_Image_mu9hi8mu9hi8mu9h.png"
-                  alt="Wellness companion"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Emotional Connection</h3>
-                <p className="text-gray-300 text-sm">Daily check-ins that feel like talking to someone who truly cares about your journey</p>
-              </div>
-            </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <MessageCircle className="text-purple-400" size={32} />
+                </div>
+                <h3 className="font-bold text-lg mb-3 text-white">More Data ≠ Better Results</h3>
+                <p className="text-gray-400">Tracking everything makes you feel like you're failing</p>
+              </CardContent>
+            </Card>
 
-            {/* Feature 2 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/l0613lpw_Gemini_Generated_Image_a6t10qa6t10qa6t1.png"
-                  alt="Nutrition guidance"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Personalized Nutrition</h3>
-                <p className="text-gray-300 text-sm">Get meal inspiration and nutrition tips tailored to women's unique health needs</p>
-              </div>
-            </div>
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="text-purple-400" size={32} />
+                </div>
+                <h3 className="font-bold text-lg mb-3 text-white">"Just Have Discipline"</h3>
+                <p className="text-gray-400">You don't lack willpower. You lack emotional support.</p>
+              </CardContent>
+            </Card>
 
-            {/* Feature 3 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/61pk8inm_Gym%20Break%20with%20Water%20and%20Towel.png"
-                  alt="Fitness motivation"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Motivation That Sticks</h3>
-                <p className="text-gray-300 text-sm">Post-workout selfies and progress updates that keep you coming back</p>
-              </div>
-            </div>
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
+              <CardContent className="pt-8 pb-8 text-center">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="text-purple-400" size={32} />
+                </div>
+                <h3 className="font-bold text-lg mb-3 text-white">Generic & Cold</h3>
+                <p className="text-gray-400">Apps remind you. They don't connect with you.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

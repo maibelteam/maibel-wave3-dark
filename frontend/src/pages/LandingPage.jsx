@@ -237,7 +237,7 @@ const LandingPage = () => {
                   <MessageCircle className="text-purple-400" size={32} />
                 </div>
                 <h3 className="font-bold text-xl mb-3 text-white">Daily Check-Ins</h3>
-                <p className="text-gray-400">Start with morning texts from your oppa. He asks about your sleep, mood, and goals for the day.</p>
+                <p className="text-gray-400">Start with morning texts from your companion. He asks about your sleep, mood, and sets a healthy habit mission.</p>
               </CardContent>
             </Card>
 
@@ -256,8 +256,8 @@ const LandingPage = () => {
                 <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">
                   <Heart className="text-purple-400" size={32} fill="currentColor" />
                 </div>
-                <h3 className="font-bold text-xl mb-3 text-white">Women's Health & Wellness Advice</h3>
-                <p className="text-gray-400">Get personalized guidance on nutrition, fitness, and self-care tailored to women's unique health needs—right at your fingertips.</p>
+                <h3 className="font-bold text-xl mb-3 text-white">Health & Wellness Advice</h3>
+                <p className="text-gray-400">Get personalized guidance on nutrition, fitness, and self-care tailored to help you hit your goals.</p>
               </CardContent>
             </Card>
           </div>

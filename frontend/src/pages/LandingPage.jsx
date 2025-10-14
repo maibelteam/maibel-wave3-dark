@@ -497,7 +497,7 @@ const LandingPage = () => {
             </p>
             <Button 
               size="lg"
-              onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full px-12 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
             >
               Sign Up For Early Access

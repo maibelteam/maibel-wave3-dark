@@ -181,7 +181,7 @@ const LandingPage = () => {
 
               <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/l0613lpw_Gemini_Generated_Image_a6t10qa6t10qa6t1.png"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/ugkl177e_Sweetpotato.png"
                   alt="Personalized Nutrition"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -194,7 +194,7 @@ const LandingPage = () => {
 
               <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/61pk8inm_Gym%20Break%20with%20Water%20and%20Towel.png"
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/tyjrky3u_gymselfiefeet.png"
                   alt="Motivation That Sticks"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

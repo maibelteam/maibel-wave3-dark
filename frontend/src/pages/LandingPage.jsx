@@ -222,7 +222,7 @@ const LandingPage = () => {
                     <span className="text-white text-sm font-semibold">24/7 Support</span>
                   </div>
                   <div className="px-4 py-2 bg-pink-600/80 backdrop-blur rounded-full">
-                    <span className="text-white text-sm font-semibold">Story-Driven</span>
+                    <span className="text-white text-sm font-semibold">Choose-your-path adventure</span>
                   </div>
                 </div>
               </div>

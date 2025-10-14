@@ -248,7 +248,7 @@ const LandingPage = () => {
       </section>
 
       {/* Features Grid */}
-      <section id="features" className="py-24 bg-black relative">
+      <section id="features" className="py-12 bg-black relative">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 to-black"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16">

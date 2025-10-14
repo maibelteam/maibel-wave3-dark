@@ -473,45 +473,58 @@ const LandingPage = () => {
       {/* Waitlist Section */}
       <section id="waitlist" className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center shadow-2xl">
-            <h2 className="text-5xl font-bold mb-6">
-              Join the Maibel Movement
-            </h2>
-            <p className="text-xl mb-8 opacity-95">
-              Be among the first to experience wellness that feels like your favorite K-drama.
-              <br />
-              Next launch: Late October 2025
-            </p>
+          <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center shadow-2xl relative overflow-hidden">
+            {/* Decorative elements */}
+            <div className="absolute top-10 right-10 opacity-20">
+              <Heart size={80} fill="white" />
+            </div>
+            <div className="absolute bottom-10 left-10 opacity-20">
+              <Sparkles size={60} />
+            </div>
+            
+            <div className="relative z-10">
+              <h2 className="text-5xl font-bold mb-6">
+                Join 300+ Women Already Waiting
+              </h2>
+              <p className="text-xl mb-4 opacity-95">
+                Be among the first to unlock your wellness story on Telegram.
+              </p>
+              <p className="text-lg mb-8 opacity-90">
+                <span className="font-semibold">Next cohort opens: Late October 2025</span>
+                <br />
+                Limited spots available for intimate beta experience.
+              </p>
 
-            <form onSubmit={handleWaitlistSubmit} className="max-w-md mx-auto space-y-4">
-              <Input
-                type="text"
-                placeholder="Your name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
-                required
-              />
-              <Input
-                type="email"
-                placeholder="Your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
-                required
-              />
-              <Button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-white text-purple-600 hover:bg-gray-50 h-14 text-lg font-semibold rounded-xl shadow-lg"
-              >
-                {isSubmitting ? 'Joining...' : 'Secure Your Spot'}
-              </Button>
-            </form>
+              <form onSubmit={handleWaitlistSubmit} className="max-w-md mx-auto space-y-4">
+                <Input
+                  type="text"
+                  placeholder="Your name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
+                  required
+                />
+                <Input
+                  type="email"
+                  placeholder="Your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="bg-white/95 border-0 h-14 text-lg text-gray-800 placeholder:text-gray-400"
+                  required
+                />
+                <Button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-white text-purple-600 hover:bg-gray-50 h-14 text-lg font-semibold rounded-xl shadow-lg transform hover:scale-105 transition-all"
+                >
+                  {isSubmitting ? 'Joining...' : 'Save My Spot 💜'}
+                </Button>
+              </form>
 
-            <p className="text-sm mt-6 opacity-90">
-              Join 300+ women already on the waitlist
-            </p>
+              <p className="text-sm mt-6 opacity-90">
+                ✨ Get notified when spots open • 🎁 Early access perks • 🔒 Your info stays private
+              </p>
+            </div>
           </div>
         </div>
       </section>

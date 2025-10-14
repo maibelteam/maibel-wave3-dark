@@ -86,21 +86,18 @@ const LandingPage = () => {
                 Adventure
               </h1>
               
-              <p className="text-xl md:text-2xl text-gray-300 mb-4 leading-relaxed">
+              <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
                 Meet your emotionally intelligent wellness oppa coach who's there for you... even at 3am.
-              </p>
-              <p className="text-lg text-gray-400 mb-8">
-                No app download. No friction. Just text and start your journey.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button 
                   size="lg"
-                  onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                  onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
+                  className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full px-12 py-7 text-xl font-bold shadow-2xl hover:shadow-purple-500/50 transform hover:scale-105 transition-all"
                 >
                   Start Your Journey
-                  <ArrowRight className="ml-2" size={20} />
+                  <ArrowRight className="ml-2" size={24} />
                 </Button>
                 <Button 
                   size="lg"
@@ -109,22 +106,10 @@ const LandingPage = () => {
                     const nextSection = document.querySelector('section:nth-of-type(2)');
                     if (nextSection) nextSection.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="rounded-full px-8 py-6 text-lg border-2 border-purple-500 text-purple-300 hover:bg-purple-900/30"
+                  className="rounded-full px-8 py-7 text-lg border-2 border-purple-500 text-purple-300 hover:bg-purple-900/30"
                 >
                   Learn More
                 </Button>
-              </div>
-
-              {/* Social Proof Pills */}
-              <div className="flex flex-wrap gap-4 text-sm">
-                <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
-                  <TrendingUp className="text-green-400" size={20} />
-                  <span className="font-semibold text-gray-300">77% retention rate</span>
-                </div>
-                <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
-                  <Users className="text-purple-400" size={20} />
-                  <span className="font-semibold text-gray-300">300+ women joined</span>
-                </div>
               </div>
             </div>
 
@@ -136,11 +121,6 @@ const LandingPage = () => {
                   alt="Wellness journey"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-transparent to-transparent"></div>
-                <div className="absolute bottom-8 left-8 right-8">
-                  <h2 className="text-3xl font-bold text-white mb-2">Meet Evren, Your Glowkeeper</h2>
-                  <p className="text-lg text-purple-200 mb-4">Your emotionally intelligent wellness companion</p>
-                </div>
               </div>
             </div>
           </div>

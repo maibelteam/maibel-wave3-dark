@@ -427,7 +427,7 @@ const LandingPage = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
+      <section className="py-12 bg-gradient-to-b from-black to-purple-950/30">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-white">

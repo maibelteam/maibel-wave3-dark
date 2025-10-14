@@ -37,19 +37,19 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="landing-page">
+    <div className="landing-page bg-black">
       <Toaster position="top-center" richColors />
       
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-rose-100">
+      <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-purple-900/30">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Heart className="text-rose-500" size={28} fill="currentColor" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">Maibel</span>
+            <Heart className="text-purple-500" size={28} fill="currentColor" />
+            <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Maibel</span>
           </div>
           <Button 
             onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-rose-500 hover:bg-rose-600 text-white rounded-full px-6"
+            className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-6"
           >
             Join Waitlist
           </Button>
@@ -58,14 +58,14 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section className="hero-section relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-rose-50 via-pink-50 to-orange-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-purple-950 to-black"></div>
         
         {/* Floating elements */}
         <div className="absolute top-20 left-10 opacity-20">
-          <Sparkles size={40} className="text-rose-400 animate-pulse" />
+          <Sparkles size={40} className="text-purple-400 animate-pulse" />
         </div>
         <div className="absolute bottom-40 right-20 opacity-20">
-          <Heart size={60} className="text-pink-400 animate-bounce" />
+          <Heart size={60} className="text-purple-400 animate-bounce" />
         </div>
         
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
@@ -76,34 +76,47 @@ const LandingPage = () => {
               transform: `translateY(${scrollY * 0.3}px)` 
             }}
           >
-            <div className="inline-block mb-6 px-6 py-2 bg-white/80 backdrop-blur rounded-full border border-rose-200 shadow-sm">
-              <span className="text-rose-600 font-medium flex items-center gap-2">
+            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 backdrop-blur rounded-full border border-purple-500/30 shadow-sm">
+              <span className="text-purple-300 font-medium flex items-center gap-2">
                 <Sparkles size={16} />
                 Your emotionally intelligent wellness companion
               </span>
             </div>
             
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight text-white">
               Star in Your Own
               <br />
-              <span className="bg-gradient-to-r from-rose-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">
                 K-Drama Wellness
               </span>
               <br />
               Adventure
             </h1>
+
+            {/* Hero Image - Oppa */}
+            <div className="mb-8 flex justify-center">
+              <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-purple-500/30">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/7d0njp9e_Evren.jpg"
+                  alt="Your wellness oppa"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent"></div>
+              </div>
+            </div>
             
-            <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Meet Maibel, your Korean wellness oppa coach who actually texts back.
-              <br />
-              <span className="font-semibold text-rose-600">Most apps track steps. Ours texts back.</span>
+            <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
+              Meet Maibel, your ridiculously hot Korean wellness oppa coach who actually texts back.
+            </p>
+            <p className="text-lg text-purple-300 mb-12 font-semibold">
+              Most apps track steps. Ours texts back with selfies.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <Button 
                 size="lg"
                 onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
-                className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
               >
                 Join the Movement
                 <ArrowRight className="ml-2" size={20} />
@@ -112,7 +125,7 @@ const LandingPage = () => {
                 size="lg"
                 variant="outline"
                 onClick={() => document.getElementById('features').scrollIntoView({ behavior: 'smooth' })}
-                className="rounded-full px-8 py-6 text-lg border-2 border-rose-300 text-rose-600 hover:bg-rose-50"
+                className="rounded-full px-8 py-6 text-lg border-2 border-purple-500 text-purple-300 hover:bg-purple-900/30"
               >
                 Learn More
               </Button>
@@ -120,20 +133,20 @@ const LandingPage = () => {
 
             {/* Social Proof Pills */}
             <div className="flex flex-wrap gap-6 justify-center items-center text-sm">
-              <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-6 py-3 rounded-full shadow-sm">
-                <TrendingUp className="text-green-500" size={20} />
-                <span className="font-semibold">77% retention rate</span>
+              <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
+                <TrendingUp className="text-green-400" size={20} />
+                <span className="font-semibold text-gray-300">77% retention rate</span>
               </div>
-              <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-6 py-3 rounded-full shadow-sm">
-                <Users className="text-rose-500" size={20} />
-                <span className="font-semibold">300+ women joined</span>
+              <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
+                <Users className="text-purple-400" size={20} />
+                <span className="font-semibold text-gray-300">300+ women joined</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Hero Image - Using provided inspiration */}
-        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white to-transparent"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
       {/* Problem Section */}

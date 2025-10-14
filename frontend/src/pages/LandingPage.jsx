@@ -446,6 +446,84 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-6 text-white">
+              Frequently Asked
+              <br />
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Questions</span>
+            </h2>
+          </div>
+
+          <Accordion type="single" collapsible className="space-y-4">
+            <AccordionItem value="item-1" className="bg-purple-900/20 border-2 border-purple-500/30 rounded-xl px-6 hover:border-purple-400/50 transition-all">
+              <AccordionTrigger className="text-white text-lg font-semibold hover:text-purple-300">
+                How is Maibel different from other wellness apps?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-300 text-base leading-relaxed">
+                Maibel stands out through its emotionally intelligent, story-driven approach specifically designed for women. Unlike generic wellness apps, Maibel uses narrative psychology and emotional intelligence to create a deeply personalized experience that evolves with you over time, addressing the unique emotional and wellness needs of women.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="bg-purple-900/20 border-2 border-purple-500/30 rounded-xl px-6 hover:border-purple-400/50 transition-all">
+              <AccordionTrigger className="text-white text-lg font-semibold hover:text-purple-300">
+                Is my information private and secure?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-300 text-base leading-relaxed">
+                Absolutely. Your privacy is our priority. All conversations with Maibel are encrypted and your personal data is never sold or shared with third parties. You can delete your data at any time, and we comply with all relevant data protection regulations. View our <a href="/privacy" className="text-purple-400 hover:text-purple-300 underline">privacy policy</a>.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="bg-purple-900/20 border-2 border-purple-500/30 rounded-xl px-6 hover:border-purple-400/50 transition-all">
+              <AccordionTrigger className="text-white text-lg font-semibold hover:text-purple-300">
+                Can Maibel replace therapy?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-300 text-base leading-relaxed">
+                While Maibel provides valuable emotional support and wellness guidance, it is not a replacement for professional therapy or medical advice. Maibel works best as a complement to professional care for those who need it, or as a daily wellness companion for managing everyday emotional well-being.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4" className="bg-purple-900/20 border-2 border-purple-500/30 rounded-xl px-6 hover:border-purple-400/50 transition-all">
+              <AccordionTrigger className="text-white text-lg font-semibold hover:text-purple-300">
+                How personalized is the experience?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-300 text-base leading-relaxed">
+                Maibel adapts through your interactions, gathering insights about your preferences, challenges, communication style, and emotional patterns. Over time, our AI's responses become increasingly tailored to your unique situation, providing highly personalized support that addresses your specific needs and wellness goals.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
+      {/* Final CTA Banner */}
+      <section className="py-20 bg-black relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+        <div className="max-w-6xl mx-auto px-6 relative z-10">
+          <div className="text-center">
+            <h2 className="text-5xl font-bold mb-6 text-white">
+              Not Therapy. Not Coaching.
+              <br />
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Just What You Need.</span>
+            </h2>
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Our AI texts first, remembers your goals, and checks in when you're spiraling. 
+              <br />
+              We're opening spots for our next beta—and you're on the list.
+            </p>
+            <Button 
+              size="lg"
+              onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full px-12 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+            >
+              Sign Up For Early Access
+              <Heart className="ml-2" size={20} fill="currentColor" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Waitlist Section */}
       <section id="waitlist" className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-6">

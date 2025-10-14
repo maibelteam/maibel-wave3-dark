@@ -76,13 +76,6 @@ const LandingPage = () => {
               transform: `translateY(${scrollY * 0.3}px)` 
             }}
           >
-            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 backdrop-blur rounded-full border border-purple-500/30 shadow-sm">
-              <span className="text-purple-300 font-medium flex items-center gap-2">
-                <Sparkles size={16} />
-                Your emotionally intelligent wellness companion
-              </span>
-            </div>
-            
             <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight text-white">
               Star in Your Own
               <br />
@@ -103,15 +96,13 @@ const LandingPage = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 text-center">
-                  <p className="text-white font-semibold text-lg">Meet Evren, your Glowkeeping coach</p>
+                  <p className="text-white font-semibold text-lg">Meet Evren, your Glowkeeper</p>
                 </div>
               </div>
             </div>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
-              Meet your emotionally intelligent wellness oppa coach who's there for you...
-              <br />
-              <span className="font-semibold text-purple-300">even at 3am.</span>
+              Meet your emotionally intelligent wellness oppa coach who's there for you... even at 3am.
             </p>
             <p className="text-lg text-gray-400 mb-12">
               No app download. No friction. Just text and start your journey.

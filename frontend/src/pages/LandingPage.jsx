@@ -178,7 +178,7 @@ const LandingPage = () => {
                   <Star className="text-purple-400" size={32} />
                 </div>
                 <h3 className="font-bold text-xl mb-3 text-white">Story Arcs Unlock</h3>
-                <p className="text-gray-400">Hit 5-day streak? Unlock intimate conversations, his backstory, and exclusive photo drops.</p>
+                <p className="text-gray-400">Hit 7-day streak? Unlock a portal for deeper conversations, his backstory, and exclusive photo drops.</p>
               </CardContent>
             </Card>
 
@@ -187,8 +187,8 @@ const LandingPage = () => {
                 <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">
                   <Heart className="text-purple-400" size={32} fill="currentColor" />
                 </div>
-                <h3 className="font-bold text-xl mb-3 text-white">Thirst Trap Rewards</h3>
-                <p className="text-gray-400">Crush your wellness goals? Get rewarded with exclusive content that keeps you motivated.</p>
+                <h3 className="font-bold text-xl mb-3 text-white">Women's Health & Wellness Advice</h3>
+                <p className="text-gray-400">Get personalized guidance on nutrition, fitness, and self-care tailored to women's unique health needs—right at your fingertips.</p>
               </CardContent>
             </Card>
           </div>

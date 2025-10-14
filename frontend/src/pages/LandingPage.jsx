@@ -478,7 +478,7 @@ const LandingPage = () => {
       </section>
 
       {/* Final CTA Banner */}
-      <section className="py-20 bg-black relative overflow-hidden">
+      <section className="py-12 bg-black relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
         <div className="max-w-6xl mx-auto px-6 relative z-10">
           <div className="text-center">

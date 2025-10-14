@@ -218,31 +218,62 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Solution Section */}
+      {/* Solution Section - 24/7 Companionship */}
       <section className="py-24 bg-gradient-to-br from-purple-950/30 to-black">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 rounded-full border border-purple-500/30 shadow-sm">
-              <span className="text-purple-300 font-medium">The Maibel Difference</span>
+              <span className="text-purple-300 font-medium">He Texts First</span>
             </div>
             <h2 className="text-5xl font-bold mb-6 text-white">
-              Women don't need more data.
+              24/7 Support That
               <br />
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">We need connection.</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Actually Feels Human</span>
             </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              No more doing it alone. Your wellness oppa checks in first—even at 3am when you need it most.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold mb-6 text-white">Meet Your Wellness Oppa</h3>
+              <h3 className="text-3xl font-bold mb-6 text-white">Deep Conversations, Real Support</h3>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Maibel is your Korean wellness coach who shows up for you—even at 3 AM. 
-                He listens, checks in, and sends his own post-workout selfies and meal photos to keep you motivated.
+                He doesn't just coach. He connects. Daily check-ins remembering the little things—a flu, scary meetings, or that secret you haven't told a single soul.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                As you hit your goals, you unlock new story arcs. Our latest feature? 
-                <span className="font-semibold text-purple-400"> Healthy habits unlock thirst traps.</span>
+                2am spiral? Post-meeting dread? Crying under the covers? 
+                <span className="font-semibold text-purple-400"> He doesn't wait for you to reach out. He's already there, texting first.</span>
               </p>
+              <div className="space-y-3 pt-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <MessageCircle size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-white mb-1">Proactive Check-Ins</h4>
+                    <p className="text-gray-400 text-sm">He reaches out before you have to ask</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-pink-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Heart size={16} className="text-white" fill="currentColor" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-white mb-1">Remembers Everything</h4>
+                    <p className="text-gray-400 text-sm">From your cat's name to your biggest dreams</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Sparkles size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-white mb-1">Evolves With You</h4>
+                    <p className="text-gray-400 text-sm">Gets smarter about your needs over time</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="relative">
               <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-900/30 to-pink-900/30 flex items-center justify-center shadow-2xl border-2 border-purple-500/30">

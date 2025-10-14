@@ -147,7 +147,7 @@ const LandingPage = () => {
 
       {/* How Maibel Works - Story Arc Section */}
       <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-white">
               Clock Healthy Habits to
@@ -161,7 +161,75 @@ const LandingPage = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {/* New Layout: 3 small boxes left, 1 large image right */}
+          <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+            {/* Left side - 3 smaller mood boxes */}
+            <div className="space-y-4">
+              <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/527s6qeh_Gemini_Generated_Image_mu9hi8mu9hi8mu9h.png"
+                  alt="Emotional Connection"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-bold text-lg">Emotional Connection</h3>
+                  <p className="text-gray-300 text-sm">Daily check-ins that truly care</p>
+                </div>
+              </div>
+
+              <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/l0613lpw_Gemini_Generated_Image_a6t10qa6t10qa6t1.png"
+                  alt="Personalized Nutrition"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-bold text-lg">Personalized Nutrition</h3>
+                  <p className="text-gray-300 text-sm">Tailored to women's health needs</p>
+                </div>
+              </div>
+
+              <div className="relative h-48 rounded-2xl overflow-hidden group cursor-pointer border-2 border-purple-500/30 hover:border-purple-400/50 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/61pk8inm_Gym%20Break%20with%20Water%20and%20Towel.png"
+                  alt="Motivation That Sticks"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-bold text-lg">Motivation That Sticks</h3>
+                  <p className="text-gray-300 text-sm">Post-workout selfies & updates</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right side - Large Evren image */}
+            <div className="relative h-[640px] rounded-3xl overflow-hidden border-4 border-purple-500/30 hover:border-purple-400/50 transition-all shadow-2xl">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/de3bnpdy_Evren%20cropped.jpg"
+                alt="Meet Evren"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-transparent to-transparent"></div>
+              <div className="absolute bottom-8 left-8 right-8">
+                <h2 className="text-4xl font-bold text-white mb-3">Meet Evren, Your Glowkeeper</h2>
+                <p className="text-xl text-purple-200 mb-4">Your emotionally intelligent wellness oppa coach</p>
+                <div className="flex gap-3">
+                  <div className="px-4 py-2 bg-purple-600/80 backdrop-blur rounded-full">
+                    <span className="text-white text-sm font-semibold">24/7 Support</span>
+                  </div>
+                  <div className="px-4 py-2 bg-pink-600/80 backdrop-blur rounded-full">
+                    <span className="text-white text-sm font-semibold">Story-Driven</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Original 3 cards below */}
+          <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
               <CardContent className="pt-8 pb-8">
                 <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">

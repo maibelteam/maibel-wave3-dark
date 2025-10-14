@@ -130,7 +130,7 @@ const LandingPage = () => {
       </section>
 
       {/* How Maibel Works - Story Arc Section */}
-      <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
+      <section className="py-16 bg-gradient-to-b from-black to-purple-950/30">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-white">

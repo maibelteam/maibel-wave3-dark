@@ -200,33 +200,33 @@ const LandingPage = () => {
       </section>
 
       {/* Solution Section */}
-      <section className="py-24 bg-gradient-to-br from-rose-50 to-pink-50">
+      <section className="py-24 bg-gradient-to-br from-purple-950/30 to-black">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-block mb-6 px-6 py-2 bg-white rounded-full border border-rose-200 shadow-sm">
-              <span className="text-rose-600 font-medium">The Maibel Difference</span>
+            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 rounded-full border border-purple-500/30 shadow-sm">
+              <span className="text-purple-300 font-medium">The Maibel Difference</span>
             </div>
-            <h2 className="text-5xl font-bold mb-6">
+            <h2 className="text-5xl font-bold mb-6 text-white">
               Women don't need more data.
               <br />
-              <span className="bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">We need connection.</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">We need connection.</span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold mb-6">Meet Your Wellness Oppa</h3>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <h3 className="text-3xl font-bold mb-6 text-white">Meet Your Wellness Oppa</h3>
+              <p className="text-lg text-gray-300 leading-relaxed">
                 Maibel is your Korean wellness coach who shows up for you—even at 3 AM. 
                 He listens, checks in, and sends his own post-workout selfies and meal photos to keep you motivated.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-300 leading-relaxed">
                 As you hit your goals, you unlock new story arcs. Our latest feature? 
-                <span className="font-semibold text-rose-600"> Healthy habits unlock thirst traps.</span>
+                <span className="font-semibold text-purple-400"> Healthy habits unlock thirst traps.</span>
               </p>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-rose-200 to-pink-200 flex items-center justify-center shadow-2xl">
+              <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-900/30 to-pink-900/30 flex items-center justify-center shadow-2xl border-2 border-purple-500/30">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/861ohj5x_image.png"
                   alt="Maibel App Preview"
@@ -238,65 +238,69 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="features" className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
+      {/* Features Grid */}
+      <section id="features" className="py-24 bg-black relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 to-black"></div>
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6">
-              Wellness That Feels Like
+            <h2 className="text-5xl font-bold mb-6 text-white">
+              Your Wellness Journey,
               <br />
-              <span className="bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">Your Favorite K-Drama</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Reimagined</span>
             </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              Experience wellness through connection, not just tracking
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <MessageCircle className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">He Texts Back</h3>
-                <p className="text-gray-600">Daily check-ins that feel like chatting with a friend who actually cares about your journey.</p>
-              </CardContent>
-            </Card>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {/* Feature 1 */}
+            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
+              <div className="aspect-square overflow-hidden">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/527s6qeh_Gemini_Generated_Image_mu9hi8mu9hi8mu9h.png"
+                  alt="Wellness companion"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Emotional Connection</h3>
+                <p className="text-gray-300 text-sm">Daily check-ins that feel like talking to someone who truly cares about your journey</p>
+              </div>
+            </div>
 
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <Star className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">Unlockable Story Arcs</h3>
-                <p className="text-gray-600">Hit your goals, unlock new chapters. Your wellness journey becomes an adventure.</p>
-              </CardContent>
-            </Card>
+            {/* Feature 2 */}
+            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
+              <div className="aspect-square overflow-hidden">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/l0613lpw_Gemini_Generated_Image_a6t10qa6t10qa6t1.png"
+                  alt="Nutrition guidance"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Personalized Nutrition</h3>
+                <p className="text-gray-300 text-sm">Get meal inspiration and nutrition tips tailored to women's unique health needs</p>
+              </div>
+            </div>
 
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <Heart className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">Motivation That Works</h3>
-                <p className="text-gray-600">Post-workout selfies, meal photos, and yes—thirst traps as rewards for healthy habits.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <Sparkles className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">Emotionally Intelligent</h3>
-                <p className="text-gray-600">Built to understand women's unique health journeys, stress patterns, and self-care needs.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <TrendingUp className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">Proven Results</h3>
-                <p className="text-gray-600">77% retention over 7 days—nearly double the industry average.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-rose-100 hover:border-rose-300 transition-all hover:shadow-xl transform hover:-translate-y-1">
-              <CardContent className="pt-8 pb-8">
-                <Users className="text-rose-500 mb-4" size={40} />
-                <h3 className="font-bold text-xl mb-3">Community Movement</h3>
-                <p className="text-gray-600">Join 300+ women who are transforming their wellness journey with emotional support.</p>
-              </CardContent>
-            </Card>
+            {/* Feature 3 */}
+            <div className="group relative overflow-hidden rounded-2xl bg-purple-900/20 border border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20">
+              <div className="aspect-square overflow-hidden">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/61pk8inm_Gym%20Break%20with%20Water%20and%20Towel.png"
+                  alt="Fitness motivation"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Motivation That Sticks</h3>
+                <p className="text-gray-300 text-sm">Post-workout selfies and progress updates that keep you coming back</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

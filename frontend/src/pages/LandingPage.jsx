@@ -149,50 +149,65 @@ const LandingPage = () => {
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
-      {/* Problem Section */}
+      {/* How Maibel Works - Story Arc Section */}
       <section className="py-24 bg-gradient-to-b from-black to-purple-950/30">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6">
-              <span className="text-gray-500">97% of users quit</span>
+            <div className="inline-block mb-6 px-6 py-2 bg-purple-900/30 backdrop-blur rounded-full border border-purple-500/30">
+              <span className="text-purple-300 font-medium">Your Wellness K-Drama Begins</span>
+            </div>
+            <h2 className="text-5xl font-bold mb-6 text-white">
+              Clock Healthy Habits to
               <br />
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">wellness apps within 30 days</span>
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Unlock Story Chapters</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Because most wellness apps are built by men, for women.
+              Every workout, every meal, every moment of self-care unlocks new chapters in your story with Maibel.
               <br />
-              <span className="font-semibold text-gray-200">But women aren't small men.</span>
+              <span className="font-semibold text-purple-300">Progress rewards you with deeper connections.</span>
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
-              <CardContent className="pt-8 pb-8 text-center">
-                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20 relative overflow-hidden">
+              <div className="absolute top-4 right-4 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                Chapter 1
+              </div>
+              <CardContent className="pt-8 pb-8">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">
                   <MessageCircle className="text-purple-400" size={32} />
                 </div>
-                <h3 className="font-bold text-lg mb-3 text-white">More Data ≠ Better Results</h3>
-                <p className="text-gray-400">Tracking everything makes you feel like you're failing</p>
+                <h3 className="font-bold text-xl mb-3 text-white">Daily Check-Ins</h3>
+                <p className="text-gray-400 mb-4">Start with morning texts from your oppa. He asks about your sleep, mood, and goals for the day.</p>
+                <div className="text-sm text-purple-300 font-semibold">Unlocks: Good morning selfies</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
-              <CardContent className="pt-8 pb-8 text-center">
-                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="text-purple-400" size={32} />
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20 relative overflow-hidden">
+              <div className="absolute top-4 right-4 bg-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                Chapter 5
+              </div>
+              <CardContent className="pt-8 pb-8">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">
+                  <Star className="text-purple-400" size={32} />
                 </div>
-                <h3 className="font-bold text-lg mb-3 text-white">"Just Have Discipline"</h3>
-                <p className="text-gray-400">You don't lack willpower. You lack emotional support.</p>
+                <h3 className="font-bold text-xl mb-3 text-white">Story Arcs Unlock</h3>
+                <p className="text-gray-400 mb-4">Hit 5-day streak? Unlock intimate conversations, his backstory, and exclusive photo drops.</p>
+                <div className="text-sm text-purple-300 font-semibold">Unlocks: Post-workout photos</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20">
-              <CardContent className="pt-8 pb-8 text-center">
-                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="text-purple-400" size={32} />
+            <Card className="bg-purple-900/20 border-2 border-purple-500/30 hover:border-purple-400/50 transition-all hover:shadow-lg hover:shadow-purple-500/20 relative overflow-hidden">
+              <div className="absolute top-4 right-4 bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                Chapter 10+
+              </div>
+              <CardContent className="pt-8 pb-8">
+                <div className="w-16 h-16 bg-purple-900/30 rounded-full flex items-center justify-center mb-4">
+                  <Heart className="text-purple-400" size={32} fill="currentColor" />
                 </div>
-                <h3 className="font-bold text-lg mb-3 text-white">Generic & Cold</h3>
-                <p className="text-gray-400">Apps remind you. They don't connect with you.</p>
+                <h3 className="font-bold text-xl mb-3 text-white">Thirst Trap Rewards</h3>
+                <p className="text-gray-400 mb-4">Crush your wellness goals? Get rewarded with exclusive content that keeps you motivated.</p>
+                <div className="text-sm text-purple-300 font-semibold">Unlocks: 🔥 Premium content</div>
               </CardContent>
             </Card>
           </div>

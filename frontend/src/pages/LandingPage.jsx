@@ -58,7 +58,7 @@ const LandingPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero-section relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      <section className="hero-section relative min-h-screen flex items-center overflow-hidden pt-32 pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-black via-purple-950 to-black"></div>
         
         {/* Floating elements */}
@@ -69,80 +69,80 @@ const LandingPage = () => {
           <Heart size={60} className="text-purple-400 animate-bounce" />
         </div>
         
-        <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-          <div 
-            className="transform transition-all duration-1000"
-            style={{ 
-              opacity: scrollY < 100 ? 1 : 0.5,
-              transform: `translateY(${scrollY * 0.3}px)` 
-            }}
-          >
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight text-white">
-              Star in Your Own
-              <br />
-              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">
-                K-Drama Wellness
-              </span>
-              <br />
-              Adventure
-            </h1>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left side - Content */}
+            <div className="text-left">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
+                Star in Your Own
+                <br />
+                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">
+                  K-Drama Wellness
+                </span>
+                <br />
+                Adventure
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-gray-300 mb-4 leading-relaxed">
+                Meet your emotionally intelligent wellness oppa coach who's there for you... even at 3am.
+              </p>
+              <p className="text-lg text-gray-400 mb-8">
+                No app download. No friction. Just text and start your journey.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                <Button 
+                  size="lg"
+                  onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                >
+                  Start Your Journey
+                  <ArrowRight className="ml-2" size={20} />
+                </Button>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  onClick={() => {
+                    const nextSection = document.querySelector('section:nth-of-type(2)');
+                    if (nextSection) nextSection.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="rounded-full px-8 py-6 text-lg border-2 border-purple-500 text-purple-300 hover:bg-purple-900/30"
+                >
+                  Learn More
+                </Button>
+              </div>
 
-            {/* Hero Image - Oppa */}
-            <div className="mb-8 flex justify-center">
-              <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-purple-500/30 hover:border-purple-400/50 transition-all">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/de3bnpdy_Evren%20cropped.jpg"
-                  alt="Your wellness oppa"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 right-4 text-center">
-                  <p className="text-white font-semibold text-lg">Meet Evren, your Glowkeeper</p>
+              {/* Social Proof Pills */}
+              <div className="flex flex-wrap gap-4 text-sm">
+                <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
+                  <TrendingUp className="text-green-400" size={20} />
+                  <span className="font-semibold text-gray-300">77% retention rate</span>
+                </div>
+                <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
+                  <Users className="text-purple-400" size={20} />
+                  <span className="font-semibold text-gray-300">300+ women joined</span>
                 </div>
               </div>
             </div>
-            
-            <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
-              Meet your emotionally intelligent wellness oppa coach who's there for you... even at 3am.
-            </p>
-            <p className="text-lg text-gray-400 mb-12">
-              No app download. No friction. Just text and start your journey.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button 
-                size="lg"
-                onClick={() => document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' })}
-                className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
-              >
-                Join the Movement
-                <ArrowRight className="ml-2" size={20} />
-              </Button>
-              <Button 
-                size="lg"
-                variant="outline"
-                onClick={() => document.getElementById('features').scrollIntoView({ behavior: 'smooth' })}
-                className="rounded-full px-8 py-6 text-lg border-2 border-purple-500 text-purple-300 hover:bg-purple-900/30"
-              >
-                Learn More
-              </Button>
-            </div>
 
-            {/* Social Proof Pills */}
-            <div className="flex flex-wrap gap-6 justify-center items-center text-sm">
-              <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
-                <TrendingUp className="text-green-400" size={20} />
-                <span className="font-semibold text-gray-300">77% retention rate</span>
-              </div>
-              <div className="flex items-center gap-2 bg-purple-900/30 backdrop-blur px-6 py-3 rounded-full shadow-sm border border-purple-500/20">
-                <Users className="text-purple-400" size={20} />
-                <span className="font-semibold text-gray-300">300+ women joined</span>
+            {/* Right side - Large Hero Image */}
+            <div className="relative">
+              <div className="relative w-full h-[600px] rounded-3xl overflow-hidden shadow-2xl border-4 border-purple-500/30 hover:border-purple-400/50 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/k6ohd8j6_gympic.png"
+                  alt="Wellness journey"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-transparent to-transparent"></div>
+                <div className="absolute bottom-8 left-8 right-8">
+                  <h2 className="text-3xl font-bold text-white mb-2">Meet Evren, Your Glowkeeper</h2>
+                  <p className="text-lg text-purple-200 mb-4">Your emotionally intelligent wellness companion</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Hero Image - Using provided inspiration */}
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 

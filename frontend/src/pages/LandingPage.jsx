@@ -545,23 +545,22 @@ const LandingPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-black border-t border-purple-900/30 relative overflow-hidden">
-        {/* Gemini Theme Background */}
-        <div className="absolute inset-0 opacity-10">
+      <footer className="py-16 bg-black border-t border-purple-900/30 relative overflow-hidden">
+        {/* Gemini Theme Background with Dark Overlay */}
+        <div className="absolute inset-0">
           <img 
-            src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/rwglvu0u_Gemini_Generated_Image_m2ytafm2ytafm2yt.png"
+            src="https://customer-assets.emergentagent.com/job_5d657b1e-ce35-4d06-8cef-3ab25293b191/artifacts/tnosg8kq_Gemini_Generated_Image_m2ytafm2ytafm2yt.png"
             alt="Background theme"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-black/80"></div>
         </div>
         
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Heart className="text-purple-500" size={24} fill="currentColor" />
-            <div className="flex flex-col items-start">
-              <span className="text-xl font-bold text-white">Glowkeeper</span>
-              <span className="text-xs text-purple-300">by Maibel</span>
+            <div className="flex flex-col items-center">
+              <span className="text-3xl font-light text-white tracking-wide">Glowkeeper</span>
+              <span className="text-sm font-bold text-purple-300">by Maibel</span>
             </div>
           </div>
           <p className="text-gray-400 mb-2">

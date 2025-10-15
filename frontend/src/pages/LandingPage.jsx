@@ -385,6 +385,23 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* CTA After Testimonials */}
+      <section className="py-8 bg-black">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <p className="text-xl text-gray-300 mb-6">
+            Ready to start your own wellness story?
+          </p>
+          <Button 
+            size="lg"
+            onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full px-12 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+          >
+            Start Your Journey
+            <ArrowRight className="ml-2" size={20} />
+          </Button>
+        </div>
+      </section>
+
       {/* Getting Started - Telegram Section */}
       <section className="py-12 bg-black relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-950/20 to-black"></div>

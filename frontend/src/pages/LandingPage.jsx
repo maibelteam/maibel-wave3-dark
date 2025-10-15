@@ -247,6 +247,20 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* CTA After Story Arcs */}
+      <section className="py-8 bg-gradient-to-b from-purple-950/30 to-black">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <Button 
+            size="lg"
+            onClick={() => window.open('https://app.youform.com/forms/k9q5j9kq', '_blank')}
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full px-12 py-6 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+          >
+            Join The Adventure
+            <ArrowRight className="ml-2" size={20} />
+          </Button>
+        </div>
+      </section>
+
       {/* Features Grid */}
       <section id="features" className="py-12 bg-black relative">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 to-black"></div>
